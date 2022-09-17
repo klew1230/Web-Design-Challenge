@@ -38,26 +38,26 @@
 }
 
 .maxtemp_dropdown {
-    background-color: rgb(177, 37, 37);
+    background-color: rgb(51, 37, 177);
 }
 
 .maxtemp_header {
     font-size: 25px;
     margin-left: 45%;
     margin-top: 2%;
-    color: rgb(177, 37, 37);
+    color: rgb(51, 37, 177);
 }
 
 .maxtpar_1 {
     font-size: 15px;
     margin-top: 25%;
-    color:rgb(177, 37, 37);
+    color: rgb(51, 37, 177);
 
 }
 
 .maxtpar_2 {
     font-size: 15px;
-    color:rgb(177, 37, 37)
+    color: rgb(51, 37, 177)
     
 }
 
@@ -97,25 +97,25 @@
 windpseed page styling */
 
 .windspeed_dropdown {
-    background-color: rgb(88, 218, 88);
+    background-color: rgb(218, 88, 131);
 }
 
 .windspeed_header {
     font-size: 25px;
     margin-left: 45%;
     margin-top: 2%;
-    color: rgb(88, 218, 88);
+    color: rgb(218, 88, 131);
 }
 
 .wspar_1 {
     font-size: 15px;
     margin-top: 22%;
-    color:rgb(88, 218, 88)
+    color:rgb(218, 88, 131);
 }
 
 .wspar_2 {
     font-size: 15px;
-    color:rgb(88, 218, 88)
+    color:rgb(218, 88, 131)
 }
 
 
@@ -142,12 +142,12 @@ windpseed page styling */
 
 .windcompare_heading {
     margin-left: 18%;
-    color: rgb(88, 218, 88);
+    color: rgb(218, 88, 131);
 }
 
 .maxtempcompare_heading {
     margin-left: 35%;
-    color: rgb(177, 37, 37);
+    color: rgb(51, 37, 177);
 
 }
 
