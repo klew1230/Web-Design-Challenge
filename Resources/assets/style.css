@@ -38,26 +38,26 @@
 }
 
 .maxtemp_dropdown {
-    background-color: rgb(51, 37, 177);
+    background-color: rgba(51, 37, 177, 0.55);
 }
 
 .maxtemp_header {
     font-size: 25px;
     margin-left: 45%;
     margin-top: 2%;
-    color: rgb(51, 37, 177);
+    color: rgba(51, 37, 177, 0.55);
 }
 
 .maxtpar_1 {
     font-size: 15px;
     margin-top: 25%;
-    color: rgb(51, 37, 177);
+    color: rgba(51, 37, 177, 0.55);
 
 }
 
 .maxtpar_2 {
     font-size: 15px;
-    color: rgb(51, 37, 177)
+    color: rgba(51, 37, 177, 0.55)
     
 }
 
@@ -179,7 +179,7 @@ windpseed page styling */
 
 /* formatting index page  */
 .home_title {
-    color: blue;
+    color: rgb(7, 155, 223);
     font-weight: bold;
     margin-left: 17%;
 }
@@ -188,12 +188,12 @@ windpseed page styling */
 /* formatting right side of index page */
 
 .top_row {
-    width: 190px;
+    width: 500px;
     margin-top:15%
 }
 
 .bottom_row {
-    width: 190px;
+    width: 500px;
     margin-top:5%
 }
 
@@ -210,7 +210,7 @@ windpseed page styling */
 /* formatting left hand side of index page */
 
 .lat_on_globe {
-    width: 260px;
+    width: 500px;
     margin-top: 9.5%;
 }
 
@@ -221,9 +221,9 @@ windpseed page styling */
 /* formatting navbar */
 
 #latitude_button {
-    background-color: rgba(7, 25, 223, 0.744);
+    background-color: rgba(7, 155, 223, 0.744);
     padding: 0.5em;
-    color: black;
+    color: hsl(0, 100%, 99%);
     
 }
 
