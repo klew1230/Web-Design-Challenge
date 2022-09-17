@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Analysis</title>
+  <link rel="stylesheet" href="style.css">
+<!-- Bring in our bootstrap stylesheet -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+
+
+<!-- ADD THE NAVBAR! -->
+<body>
+  <nav id="nav_bar_format" class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a  id= "latitude_button" class="navbar-brand" href="index.html" alt="Home Page" title="Home Page">Main Page</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="maxtemp_dropdown"><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
+              <li class="humidity_dropdown"><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li class="cloudiness_dropdown"><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+              <li class="windspeed_dropdown"><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <h3 class="home_title">Latitude vs. Weather Statistics </h3>
+    
+    <br>
+    <br>
+
+
+    <div class="container">
+    
+      <div class="row">
+
+          <div id="left_side_index" class="col-md-10">
+            <div class="row"> 
+              <div class="col-md-5">
+            <img class="lat_on_globe" src="https://image.slidesharecdn.com/globe-latitudesandlongitudes-161201120306/85/globe-latitudes-and-longitudes-1-320.jpg?cb=1480593902" srcset="http://www.redraggedfiend.com/wp-content/uploads/2018/09/definition-of-latitude-longitude.jpg" alt="definition-of-latitude-longitude" width="560" height="346" srcset="https://www.redraggedfiend.com/wp-content/uploads/2018/09/definition-of-latitude-longitude.jpg 560w, https://www.redraggedfiend.com/wp-content/uploads/2018/09/definition-of-latitude-longitude-300x185.jpg 300w" sizes="(max-width: 560px) 100vw, 560px"/>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-16"> 
+            <p>This webpage provides plot graphs demonstrating Latitude's relationship with <a href="humidity.html">Humidity Level</a>, 
+              <a href="maxtemp.html">Maximum Temperature</a>, <a href="windspeed.html">Wind Speed</a>, and <a href="cloudiness.html">Cloudiness</a>
+              from a fixed time API Call. 
+            </p>
+            
+            <p>
+              Please navigate to the Data page to view the dataset from a call to the OpenWeatherMap API. 
+            </p>
+            <br>
+            <br>
+          </div>
+          </div>
+          </div>
+      
+          <div id="right_side" class="col-md-20">
+            <h4 class="plots_index_header">Plots</h4>
+              <div id="right_first_row" class="row"> 
+                
+                <div id="top_left_img" class="col-md-6">
+                  <a href="cloudiness.html">
+                  <img class="top_row" src="assets\images\Fig3.png" 
+                    alt="Latitude vs. Cloudiness" title="Latitude vs. Cloudiness"/>
+                    </a>
+                  </div>
+                  
+
+                  <div id="top_right_img" class="col-md-6">
+                    <a href="humidity.html">
+                    <img class="top_row" src="assets\images\Fig2.png"
+                    alt="Latitude vs. Humidity" title="Latitude vs. Humidity"/> 
+                    </a>
+                  </div>
+              </div> 
+              
+              <div class="row">
+                <div id="bottom_left_img" class="col-md-6">
+                  <a href="maxtemp.html">
+                  <img class="bottom_row" src="assets\images\Fig1.png"
+                  alt="Latitude vs. Max Temperature" title="Latitude vs. Max Temperature"/>
+                  </a>
+                </div>
+
+                <div id= "bottom_right_img" class="col-md-6">
+                  <a href="windspeed.html">
+                  <img class="bottom_row" src="assets\images\Fig4.png"
+                   alt="Latitude vs. Wind Speed" title="Latitude vs. Wind Speed"/>
+                  </a>   
+                </div>
+            </div> 
+
+
+          </div>
+      </div>
+
+</body>
